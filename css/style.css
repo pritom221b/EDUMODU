@@ -1,0 +1,450 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+/**********************************************************************************************/
+                            /*header section css starts from here*/
+/**********************************************************************************************/
+.header{
+	width: 100%;
+	padding-bottom: 140px;
+	padding-right: 120px;
+	background: url("../images/bg1.png") center top no-repeat;
+	background-size: cover;
+}
+.menu{
+	width: 100%;
+}
+.bg-light{
+	background: transparent!important;
+}
+.navbar-brand{
+	margin-left: 70px;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+    color: #5a6e79;
+    margin-left:20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	padding-bottom: 0px;
+	color: #ffc178;
+    border-bottom: 2px solid #ffc178;
+}
+.navbar-light .navbar-nav>.active .nav-link {
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 0px;
+	font-size: 15px;
+	font-weight: 700;
+    color: #ffc178;
+    border-bottom: 2px solid #ffc178;
+}
+.menu .btn-info{
+	padding: 10px 35px !important;
+	border-bottom: 0px!important;
+	border-radius: 30px;
+	background: #fff;
+	color:#ffc178!important;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height:24px;
+	font-weight: 700;
+	border: 0px;
+	transition: 1s;
+}
+.menu .btn-info:hover, .menu .btn-info:focus{
+	padding: 10px 35px !important;
+	border-bottom: 0px!important;
+	background: #ffc178;
+	color:#fff!important;
+	box-shadow:none;
+}
+.banner{
+	width: 80%;
+	margin: 0px auto;
+	padding: 100px 0px;
+}
+.banner h2{
+	margin-left:18px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+	color:#ffc178; 
+}
+.banner p{
+	margin-top: 10px;
+	margin-left:18px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	font-weight:600;
+	line-height:26px;
+	color:#657781; 
+}
+.banner .btn-info{
+	padding: 10px 35px !important;
+	margin-top: 10px;
+	margin-left:18px;
+	margin-bottom:100px;
+	border-bottom: 0px!important;
+	border-radius: 30px;
+	background: #ffc178;
+	color:#fff!important;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height:24px;
+	font-weight: 700;
+	border: 0px;
+	transition: 1s;
+}
+.banner .btn-info:hover,.banner .btn-info:focus{
+	padding: 10px 35px !important;
+	border-bottom: 0px!important;
+	background: #fff;
+	color:#ffc178!important;
+	box-shadow:none;
+}
+/**********************************************************************************************/
+                            /*header section css ends in here*/
+/**********************************************************************************************/
+/**********************************************************************************************/
+                            /*department section css starts from here*/
+/**********************************************************************************************/
+.department{
+	width: 100%;
+	margin-top: -60px;
+	background: url("../images/bg2.png")center top no-repeat;
+	background-size: cover;
+}
+.department .title{
+	width: 80%;
+	padding-bottom: 40px;
+	margin: 0px auto;
+	text-align: center;
+}
+.title h2{
+	margin-left:18px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+	color:#252c3a; 
+}
+.title p{
+	margin-top: 10px;
+	margin-left:18px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	font-weight:600;
+	line-height:26px;
+	color:#657781; 
+}
+.department .online-education{
+	width:70%;
+	margin: 0px auto;
+	padding-bottom: 90px;
+	text-align: center;
+}
+.online-education .c1{
+	padding-bottom: 60px;
+	background: #f9703a;
+	border-left: 20px solid #fff;
+	border-radius: 0px;
+}
+.online-education .c2{
+	padding-bottom: 60px;
+	background: #80be41;
+	border-left: 20px solid #fff;
+	border-radius: 0px;
+}
+.online-education .c3{
+	padding-bottom: 60px;
+	background: #ffb157;
+	border-left: 20px solid #fff;
+	border-radius: 0px;
+}
+.online-education h3{
+	margin-top: -79px!important;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color:#fff; 
+}
+.department.limitless-learning{
+	width: 100%;
+}
+.limitless-learning h2{
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+	color:#252c3a;
+}
+.limitless-learning p{
+	margin-bottom: 20px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	font-weight:600;
+	line-height:26px;
+	color:#657781; 
+}
+.limitless-learning .h41{
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 39px;
+	color:#ffba00;
+}
+.limitless-learning .p41{
+	margin-top: -10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	color:#ffc322;
+}
+.limitless-learning .h42{
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 39px;
+	color:#ff5f72;
+}
+.limitless-learning .p42{
+	margin-top: -10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	color:#ff7485;
+}
+.limitless-learning .h43{
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 39px;
+	color:#43cb83;
+}
+.limitless-learning .p43{
+	margin-top: -10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	color:#5cd294;
+}
+.university-section{
+	width: 100%;
+	text-align: center;
+}
+.university-section h2{
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+}
+.about-uni{
+	width: 80%;
+	padding: 100px 0px;
+	margin: 0px auto;
+}
+.about-uni .uni-title{
+	margin-bottom: 90px;
+	text-align: center;
+}
+.about-uni .uni-title h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+.about-uni .card{
+	margin-bottom: 30px;
+	transition: 1s;
+}
+.about-uni .card:hover{
+	box-shadow: 1px 4px 10px #ccc;
+	opacity: 2;
+}
+.about-uni .card:hover a,.about-uni .card:focus a{
+	color: #ffc178;
+	text-decoration: underline;
+}
+.about-uni .card:hover p,.about-uni .card:focus p{
+	color: #000;
+}
+.about-uni .card a{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 13px;
+	font-weight:600;
+	color: #000;
+}
+.about-uni .card p{
+	margin:10px 0px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 11px;
+	font-weight:600;
+	color: #5a6e79;
+}
+.about-uni .card .cp1{
+	margin:10px 0px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 11px;
+	font-weight:400;
+	color: #5a6e79;
+}
+/**********************************************************************************************/
+                            /*department section css ends in here*/
+/**********************************************************************************************/
+/**********************************************************************************************/
+                            /*footer section css starts from here*/
+/**********************************************************************************************/
+.footer-widget{
+	width: 100%;
+	padding: 100px 0px;
+	background: #252c3a;
+	text-align: left;
+}
+.footer-widget .footerw{
+	width: 80%;
+	margin: 0px auto;
+}
+.footer-widget p{
+	margin:20px 0px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 12px;
+	font-weight:600;
+	color: #969595;
+}
+.footer-widget .line-div{
+	width: 250px;
+	height: 2px;
+	background: #303744;
+}
+.footer-widget .social-icons{
+	margin-top: 20px;
+	list-style: none;
+	display: block;
+}
+.footer-widget .social-icons li{
+	display: inline-block;
+	margin-right:10px;
+}
+.footer-widget .social-icons i{
+	color: #4a4a4a;
+	transition: 1s;
+}
+.footer-widget .social-icons i:hover{
+	color: #0089fd;
+}
+.footer-widget h4{
+	font-size: 16px;
+	color: #ffffff;
+	margin-bottom: 37px;
+}
+.footer-widget .fp-list{
+	font-size: 12px;
+	font-weight: 600;
+	list-style: none;
+}
+.footer-widget .fp-list li{
+	margin-bottom: 20px;
+	color: #969595;
+}
+.footer-widget .fp-list li a{
+	color: #969595;
+	text-decoration: none;
+	transition: 1s;
+}
+.footer-widget .fp-list li a:hover{
+	color: #ffffff;
+}
+.footer-widget .fp-list li a:hover span{
+	color: #ffffff;
+}
+.footer-widget .fp-list li a span{
+	color: #6b6b6b;
+	transition: 1s;
+}
+.footer-widget .fp-list li a span:hover{
+	color:#ffffff;	
+}
+.footer-widget .fp-list li a span:hover a{
+	color:#ffffff;	
+}
+.footer-widget .get-help{
+	text-align: left;
+}
+.footer-widget .mb-2{
+	position: relative;
+	margin-left: 0px!important;
+}
+.footer-widget .mb-2 .form-control{
+	border-radius: 0px;
+}
+.footer-widget .btn{
+	position: absolute;
+	padding: 10px 6px;
+	font-size: 12px;
+	font-weight: 600;
+	border-radius: 0px;
+	right: 0;
+	background: #ffc178!important;
+	color: #ffffff!important;
+	border: 0px;
+	transition: 1s;
+}
+.footer-widget .btn:hover{
+	background:#252c3a!important;
+	color: #ffc178!important;
+}
+.footer-widget .btn:focus{
+	background:#ffffff;
+	color: #ffc178;
+	box-shadow: none;
+}
+.finisher{
+	width: 100%;
+	background: #1d232e;
+	padding: 20px 0px;
+}
+.finisher .ff{
+	width: 85%;
+	margin: 0px auto;
+}
+.finisher .ff h4{
+	margin-top: 12px;
+	margin-left: 28px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #4a4a4a;
+}
+.finisher .ff ul{
+	margin-top: 12px;
+	margin-left:235px;
+	display: block;
+	list-style: none;
+}
+.finisher .ff ul li{
+	margin-left:20px;
+	display: inline-block;
+}
+.finisher .ff ul li a{
+	text-decoration: none;
+	color: #4a4a4a;
+	font-weight: 600;
+	transition: 1s;
+}
+.finisher .ff ul li a:hover{
+	color: #ffffff;
+}
+/**********************************************************************************************/
+                            /*footer section css ends in here*/
+/**********************************************************************************************/
